@@ -8,7 +8,7 @@ var sassMiddleware = require('./middlewares/sass-middleware')(BaseDir);
 var lessMiddleware = require('./middlewares/less-middleware')(BaseDir);
 
 module.exports = {
-    "files" : [BaseDir+"/**/*.js",BaseDir+"/**/*.css",BaseDir+"/**/*.html"],
+    "files" : [BaseDir+"/**/*.js",BaseDir+"/**/*.css",BaseDir+"/**/*.html",BaseDir+"/**/*.scss",BaseDir+"/**/*.less"],
     "server" : {
         "baseDir" : BaseDir,
         "middleware" : {
