@@ -5,13 +5,15 @@ var BaseDir = "./src/"+rootDir;
 /**Middlewares */
 
 var sassMiddleware = require('./middlewares/sass-middleware')(BaseDir);
+var lessMiddleware = require('./middlewares/less-middleware')(BaseDir);
 
 module.exports = {
     "files" : [BaseDir+"/**/*.js",BaseDir+"/**/*.css",BaseDir+"/**/*.html"],
     "server" : {
         "baseDir" : BaseDir,
         "middleware" : {
-            2 : sassMiddleware
+            2 : sassMiddleware,
+            3 : lessMiddleware
         }
     },
     serveStatic: ['.', './shared']
