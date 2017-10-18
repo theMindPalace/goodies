@@ -1,3 +1,6 @@
+var options =  {
+  "presets": ["es2015"]
+}
 module.exports = function(BaseDir) {
 
     var babelMiddleware = function (req, res, next) {
@@ -22,7 +25,7 @@ module.exports = function(BaseDir) {
         return new Promise(function(resolve,reject) {
 
 
-            require("babel-core").transformFile(src, {}, function (err, result) {
+            require("babel-core",options).transformFile(src, {}, function (err, result) {
                 if(err) {
                     console.log('**** : Babel compiling error',err);
                     reject();
