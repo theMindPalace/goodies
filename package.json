@@ -5,7 +5,8 @@
   "main": "bs-config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "type-text": "lite-server text-typing-transition"
+    "type-text": "lite-server text-typing-transition",
+    "text-animate-1": "lite-server text-animate-1"
   },
   "keywords": [],
   "author": "",

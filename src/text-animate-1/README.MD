@@ -1,0 +1,1 @@
+# Animating individual characters from text
