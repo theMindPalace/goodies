@@ -9,7 +9,8 @@
     "text-animate-1": "parcel ./src/text-animate-1/index.html",
     "backglow": "parcel ./src/backglow/index.html",
     "matrix": "parcel ./src/matrix/index.html",
-    "offcanvas": "parcel ./src/offcanvas/index.html"
+    "offcanvas": "parcel ./src/offcanvas/index.html",
+    "breath": "parcel ./src/breath/index.html"
   },
   "keywords": [],
   "author": "",
