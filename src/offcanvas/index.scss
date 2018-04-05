@@ -6,7 +6,18 @@ body, .canvas, .main-content     {
 
 // the overall container
 .canvas  {
+  transition: .5s cubic-bezier(.91,.06,.47,1.05) transform;
+}
 
+// show the nav if the class exists and toggle the icon
+.canvas.show-nav   {
+  transform: translateX($side-nav-width);
+  .fa-window-close {
+    display: block;
+  }
+  .fa-bars {
+    display:none;
+  }
 }
 
 // style the side navigation
@@ -40,4 +51,8 @@ body, .canvas, .main-content     {
 .toggle-button  {
   font-size: 3em;
   color: #333;
+}
+.fa-window-close {
+  display:none;
+  margin:12px 0px;
 }
