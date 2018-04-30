@@ -10,7 +10,8 @@
     "backglow": "parcel ./src/backglow/index.html",
     "matrix": "parcel ./src/matrix/index.html",
     "offcanvas": "parcel ./src/offcanvas/index.html",
-    "breath": "parcel ./src/breath/index.html"
+    "breath": "parcel ./src/breath/index.html",
+    "card-wave": "parcel ./src/card-wave/index.html"
   },
   "keywords": [],
   "author": "",
